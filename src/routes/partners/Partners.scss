@@ -1,0 +1,35 @@
+.partners{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    h1{
+        color: #111;
+        font-size: 42px;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+}
+.partners__content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 20px;
+
+}
+.partners__wrapper{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 60px 40px;
+}
+.partners__item{
+    h4{
+        color: black;
+        font-size: 13px;
+        height: 26px;
+    }
+    img{
+        width: 100%;
+        max-width: 180px;
+        height: 150px;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,65 @@
+.banner{
+    margin-top: 20px;
+}
+  
+  
+    .banner__swiper {
+      width: 100%;
+      height: 700px;
+  
+      .swiper-slide {
+          width: 100%;
+          height: 100%;
+          padding-left: 90px;
+        
+          /* Center slide text vertically */
+          display: flex;
+          justify-content: flex-start;
+          background-position: center ;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        h2{
+            color: #f0ecec;
+            font-size: 70px;
+            margin-top: 200px;
+            margin-bottom: 40px;
+            max-width: 1100px;
+            text-align: left;
+        }
+        .banner__links{
+            display: flex;
+            align-items: center;
+            gap: 0 18px;
+            button{
+                border: none;
+                background-color: #fff;
+                padding: 12px 18px;
+                display: flex;
+                align-items: center;
+                gap: 0 6px;
+                font-size: 22px;
+                font-weight: 800;
+                border-radius: 10px;
+                cursor: pointer;
+                svg{
+                    font-size: 26px;
+                    fill: #111;
+                }
+            }
+            a{
+                text-decoration: none;
+                font-size: 22px;
+                font-weight: 900;
+                color: #fff;
+                background-color: rgb(168, 158, 158);
+                padding: 12px 18px;
+                border-radius: 10px;
+            }
+        }
+    }
+  
+  
+  
+  
+    
